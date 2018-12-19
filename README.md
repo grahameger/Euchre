@@ -18,5 +18,9 @@ TODO: JavaScript front end for a web based, multiplayer Euchre game.
 **What this is not**
  - Secure. I wouldn't run it on a publicly accessible server.
 
-Currently working on Game Logic.
-
+**Working Task List**
+ - Finish and test Game Logic.
+ - Write Front-end
+ - Write JSON library.
+ - Write HTTP server.
+ 
