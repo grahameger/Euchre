@@ -1,6 +1,7 @@
 
 # Euchre
-REST API for a Euchre Game. Written in C++
+IN PROGRESS: REST API for a Euchre Game. Written in C++
+TODO: JavaScript front end for a web based, multiplayer Euchre game.
 
 **Project Goals**
  - Write a complete multiplayer web game backend using C++ from the ground up, only using the STL, no libraries.
