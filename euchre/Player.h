@@ -54,7 +54,10 @@ namespace euchre {
                                  bool is_dealer,
                                  int round,
                                  Suit order_up_suit);
-        virtual void add_and_discard(const Card &updard) = 0;
+        virtual bool offer_trump(const Card& upcard, bool is_dealer);
+        virtual Suit offer_trump(bool is_dealer);
+        // return the card that's removed
+        virtual Card add_and_discard(const Card &updard) = 0;
     private:
         Hand hand;
     };

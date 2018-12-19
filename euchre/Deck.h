@@ -37,6 +37,7 @@ namespace euchre {
     };
     
     enum Category {
+        NotValid = -1,
         OffsuitNotLed = 0,
         OffsuitLed = 1,
         Trump = 2
@@ -83,6 +84,7 @@ namespace euchre {
     public:
         ShuffledDeck();
         Card pop();
+        Card upcard();
     private:
         size_t remaining;
     };

@@ -130,6 +130,8 @@ namespace euchre {
             return Trump;
         } else if (suit == led) {
             return OffsuitLed;
+        } else if (suit == None || value == Null) {
+            return NotValid;
         } else {
             return OffsuitNotLed;
         }
@@ -200,5 +202,9 @@ namespace euchre {
                 deck[i * values.size() + j] = Card(suits[i], values[j]);
             }
         }
+    }
+    
+    Card ShuffledDeck::upcard() {
+        return deck[0];
     }
 }
